@@ -1,0 +1,182 @@
+
+
+body{
+	color:black;
+ 	font-family: "Questrial", sans-serif;
+  background-image: url('./img/wall5.png');
+   	background-size: cover;
+   	background-attachment: fixed;
+    margin: 0 0 0 0;
+}
+
+#btn{
+	font-size: 14pt;
+    background: #ff8c1a;
+    z-index: 3;
+    width: 100%;
+	padding: 11px 10px 11px 13px;
+
+    margin-bottom: 10%;
+    margin-top: 10%; 
+    border: 2px solid black;
+    box-shadow: 0 0 0 black;
+    transition: all 0.2s;
+   
+}
+
+#btn:hover {
+  box-shadow: 0.4rem 0.4rem 0 black;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+#btn:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
+}
+
+#sign_in_content, #sign_up_content{
+	top: 12%;
+	left: 35%;
+	position: absolute;
+	width: 20%;
+	margin: auto;
+	text-align: center;
+	background-color: #FFD68C;
+	border-color: #cc6600;
+	border-style: solid;
+	border-width: 2px;
+	padding: 3%;
+	border-radius: 30px;
+	margin: 3% 0 3% 0;
+	
+}
+
+
+
+#sign_in_content label, #sign_up_content label{
+	display: none;
+}
+
+
+#sign_in_content_header{
+	color: #cc6600;
+	font-size: 32pt;
+	font-weight: bold;
+	text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
+	margin-bottom: 15%;
+}
+
+
+#sign_in_content input, #sign_up_content input{
+	width: 100%;
+	padding: 11px 10px 11px 13px;
+	text-align: center;
+	display: block;
+	margin: 0;
+	border: 0;
+	background-color: #ffffe6;
+	font: 16px "Helvetica Neue","HelveticaNeue","Helvetica","Arial","sans-serif";
+	box-sizing: border-box;
+	color: #222;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-align: start;
+	outline-width: 0;
+}
+
+
+#sign_in_content input[type="text"], #sign_up_content input[type="text"]{
+    border-top: 1px solid rgb(68, 68, 68);
+    border-right: 1px solid rgb(68, 68, 68);
+    border-left: 1px solid rgb(68, 68, 68);
+	border-radius: 2px 2px 0px 0px;
+}
+
+#sign_in_content input[type="password"], #sign_up_content input[type="email"]{
+	z-index: 2;
+    border-top: none;
+    border-bottom: 1px solid rgb(68, 68, 68);
+    border-right: 1px solid rgb(68, 68, 68);
+    border-left: 1px solid rgb(68, 68, 68);
+    border-radius: 0px;	  
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0px 1px 0px 0px rgba(255,255,255,0.5); 
+}
+
+#sign_up_content input[type="password"], #sign_up_content input[type="repassword"]{
+	z-index: 2;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid rgb(68, 68, 68);
+    border-left: 1px solid rgb(68, 68, 68);
+    border-radius: 0px;	  
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0px 1px 0px 0px rgba(255,255,255,0.5); 
+}
+
+
+
+#sign_in_footer{
+	bottom: 0%;
+	position: fixed;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(100, 100, 100, 0.4);
+	text-shadow: 1px 0px 10px rgba(0, 0, 0, 1);
+}
+
+footer{
+	width: 20%;
+	vertical-align: text-bottom;
+	margin: 15px 0px 0px 0px;
+} 
+
+.footer_div{
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	margin-right: 12px;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-left: 10px;
+}
+
+div.footer_div.right_footer{
+	float: right;
+}
+
+.sign_in_error{
+	margin-top: 40px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5px;
+	width: 75%;
+	position: relative;
+	background-color: rgba(255, 0, 0, 0.2);
+	border: 1px solid rgba(255, 0, 0, 0.8);
+	border-radius: 4px;
+	color: rgb(132, 3, 3);
+	text-align: center;
+	text-shadow: 0 0 3px rgb(255, 255, 255);
+	padding: 2%;
+	width: 66%;
+}
+
+.sign_in_ok{
+	background-color: rgba(102, 255, 102, 0.2);
+	border: 1px solid rgba(0, 153, 51, 0.8);
+	margin-top: 40px;
+	margin-bottom: 5px;
+	margin-left: 15%;
+	margin-bottom: 15%;
+	width: 66%;
+	position: relative;
+	border-radius: 4px;
+	color: rgb(132, 3, 3);
+	text-align: center;
+	text-shadow: 0 0 3px rgb(255, 255, 255);
+	padding: 2%;
+}

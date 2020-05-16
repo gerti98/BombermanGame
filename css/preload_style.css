@@ -1,0 +1,114 @@
+/***** 
+ Foglio di stile dedicato al preloading delle immagini che entrano in gioco nelle animazioni delle varie 
+ componenti del gioco, al fine di evitare problemi di caricamento delle immagini e perdita di alcuni frame
+ 
+*****/
+
+#preload-01 { background: url('./img/player_sprites/down_idle.png') no-repeat -9999px -9999px; }
+#preload-02 { background: url('./img/player_sprites/down_movement_dx.png') no-repeat -9999px -9999px; }
+#preload-03 { background: url('./img/player_sprites/down_movement_sx.png') no-repeat -9999px -9999px; }
+
+#preload-04 { background: url('./img/player_sprites/left_idle.png') no-repeat -9999px -9999px; }
+#preload-05 { background: url('./img/player_sprites/left_movement_dx.png') no-repeat -9999px -9999px; }
+#preload-06 { background: url('./img/player_sprites/left_movement_sx.png') no-repeat -9999px -9999px; }
+
+#preload-07 { background: url('./img/player_sprites/right_idle.png') no-repeat -9999px -9999px; }
+#preload-08 { background: url('./img/player_sprites/right_movement_dx.png') no-repeat -9999px -9999px; }
+#preload-09 { background: url('./img/player_sprites/right_movement_sx.png') no-repeat -9999px -9999px; }
+
+#preload-10 { background: url('./img/player_sprites/up_idle.png') no-repeat -9999px -9999px; }
+#preload-11 { background: url('./img/player_sprites/up_movement_dx.png') no-repeat -9999px -9999px; }
+#preload-12 { background: url('./img/player_sprites/up_movement_sx.png') no-repeat -9999px -9999px; }
+
+#preload-13 { background: url('./img/bomb_explosion/bomb0.png') no-repeat -9999px -9999px; }
+#preload-14 { background: url('./img/bomb_explosion/bomb1.png') no-repeat -9999px -9999px; }
+#preload-15 { background: url('./img/bomb_explosion/bomb2.png') no-repeat -9999px -9999px; }
+
+#preload-16 { background: url('./img/bomb_explosion/explode_center_0.png') no-repeat -9999px -9999px; }
+#preload-17 { background: url('./img/bomb_explosion/explode_center_1.png') no-repeat -9999px -9999px; }
+#preload-18 { background: url('./img/bomb_explosion/explode_center_2.png') no-repeat -9999px -9999px; }
+#preload-19 { background: url('./img/bomb_explosion/explode_center_3.png') no-repeat -9999px -9999px; }
+
+#preload-20 { background: url('./img/bomb_explosion/explode_down_1.png') no-repeat -9999px -9999px; }
+#preload-21 { background: url('./img/bomb_explosion/explode_down_2.png') no-repeat -9999px -9999px; }
+#preload-22 { background: url('./img/bomb_explosion/explode_down_0.png') no-repeat -9999px -9999px; }
+#preload-23 { background: url('./img/bomb_explosion/explode_down_3.png') no-repeat -9999px -9999px; }
+
+#preload-24 { background: url('./img/bomb_explosion/explode_horizontal_2.png') no-repeat -9999px -9999px; }
+#preload-25 { background: url('./img/bomb_explosion/explode_horizontal_0.png') no-repeat -9999px -9999px; }
+#preload-26 { background: url('./img/bomb_explosion/explode_horizontal_1.png') no-repeat -9999px -9999px; }
+#preload-27 { background: url('./img/bomb_explosion/explode_horizontal_3.png') no-repeat -9999px -9999px; }
+
+#preload-28 { background: url('./img/bomb_explosion/explode_left_0.png') no-repeat -9999px -9999px; }
+#preload-29 { background: url('./img/bomb_explosion/explode_left_1.png') no-repeat -9999px -9999px; }
+#preload-30 { background: url('./img/bomb_explosion/explode_left_2.png') no-repeat -9999px -9999px; }
+#preload-31 { background: url('./img/bomb_explosion/explode_left_3.png') no-repeat -9999px -9999px; }
+
+#preload-32 { background: url('./img/bomb_explosion/explode_right_1.png') no-repeat -9999px -9999px; }
+#preload-33 { background: url('./img/bomb_explosion/explode_right_2.png') no-repeat -9999px -9999px; }
+#preload-34 { background: url('./img/bomb_explosion/explode_right_0.png') no-repeat -9999px -9999px; }
+#preload-35 { background: url('./img/bomb_explosion/explode_right_3.png') no-repeat -9999px -9999px; }
+
+#preload-36 { background: url('./img/bomb_explosion/explode_up_2.png') no-repeat -9999px -9999px; }
+#preload-37 { background: url('./img/bomb_explosion/explode_up_0.png') no-repeat -9999px -9999px; }
+#preload-38 { background: url('./img/bomb_explosion/explode_up_1.png') no-repeat -9999px -9999px; }
+#preload-39 { background: url('./img/bomb_explosion/explode_up_3.png') no-repeat -9999px -9999px; }
+
+#preload-40 { background: url('./img/bomb_explosion/explode_vertical_0.png') no-repeat -9999px -9999px; }
+#preload-41 { background: url('./img/bomb_explosion/explode_vertical_1.png') no-repeat -9999px -9999px; }
+#preload-42 { background: url('./img/bomb_explosion/explode_vertical_2.png') no-repeat -9999px -9999px; }
+#preload-43 { background: url('./img/bomb_explosion/explode_vertical_3.png') no-repeat -9999px -9999px; }
+
+#preload-44 { background: url('./img/player_sprites/death_0.png') no-repeat -9999px -9999px; }
+#preload-45 { background: url('./img/player_sprites/death_1.png') no-repeat -9999px -9999px; }
+#preload-46 { background: url('./img/player_sprites/death_2.png') no-repeat -9999px -9999px; }
+#preload-47 { background: url('./img/player_sprites/death_3.png') no-repeat -9999px -9999px; }
+
+#preload-48 { background: url('./img/broken_block/broken_block_0.png') no-repeat -9999px -9999px; }
+#preload-49 { background: url('./img/broken_block/broken_block_1.png') no-repeat -9999px -9999px; }
+#preload-50 { background: url('./img/broken_block/broken_block_2.png') no-repeat -9999px -9999px; }
+#preload-51 { background: url('./img/broken_block/broken_block_3.png') no-repeat -9999px -9999px; }
+#preload-52 { background: url('./img/broken_block/broken_block_4.png') no-repeat -9999px -9999px; }
+
+#preload-53 { background: url('./img/enemy_balloon/left_balloon_0.png') no-repeat -9999px -9999px; }
+#preload-54 { background: url('./img/enemy_balloon/left_balloon_1.png') no-repeat -9999px -9999px; }
+#preload-55 { background: url('./img/enemy_balloon/left_balloon_2.png') no-repeat -9999px -9999px; }
+
+#preload-56 { background: url('./img/enemy_balloon/right_balloon_0.png') no-repeat -9999px -9999px; }
+#preload-57 { background: url('./img/enemy_balloon/right_balloon_1.png') no-repeat -9999px -9999px; }
+#preload-58 { background: url('./img/enemy_balloon/right_balloon_2.png') no-repeat -9999px -9999px; }
+
+#preload-59 { background: url('./img/enemy_balloon/up_balloon_0.png') no-repeat -9999px -9999px; }
+#preload-60 { background: url('./img/enemy_balloon/up_balloon_1.png') no-repeat -9999px -9999px; }
+#preload-61 { background: url('./img/enemy_balloon/up_balloon_2.png') no-repeat -9999px -9999px; }
+
+#preload-62 { background: url('./img/enemy_balloon/down_balloon_0.png') no-repeat -9999px -9999px; }
+#preload-63 { background: url('./img/enemy_balloon/down_balloon_1.png') no-repeat -9999px -9999px; }
+#preload-64 { background: url('./img/enemy_balloon/down_balloon_2.png') no-repeat -9999px -9999px; }
+
+#preload-65 { background: url('./img/enemy_balloon/death_balloon.png') no-repeat -9999px -9999px; }
+
+#preload-66 { background: url('./img/bonus_and_malus/bomb_malus.png') no-repeat -9999px -9999px; }
+#preload-67 { background: url('./img/bonus_and_malus/bomb_bonus.png') no-repeat -9999px -9999px; }
+#preload-68 { background: url('./img/bonus_and_malus/hearth_bonus.png') no-repeat -9999px -9999px; }
+#preload-69 { background: url('./img/bonus_and_malus/power_bonus.png') no-repeat -9999px -9999px; }
+#preload-70 { background: url('./img/bonus_and_malus/skull_malus.png') no-repeat -9999px -9999px; }
+#preload-71 { background: url('./img/bonus_and_malus/speed_bonus.png') no-repeat -9999px -9999px; }
+#preload-72 { background: url('./img/bonus_and_malus/speed_malus.png') no-repeat -9999px -9999px; }
+
+
+#preload-73 { background: url('./img/player_sprites/down_idle_2.png') no-repeat -9999px -9999px; }
+#preload-74 { background: url('./img/player_sprites/down_movement_dx_2.png') no-repeat -9999px -9999px; }
+#preload-74 { background: url('./img/player_sprites/down_movement_sx_2.png') no-repeat -9999px -9999px; }
+
+#preload-76 { background: url('./img/player_sprites/left_idle_2.png') no-repeat -9999px -9999px; }
+#preload-77 { background: url('./img/player_sprites/left_movement_dx_2.png') no-repeat -9999px -9999px; }
+#preload-78 { background: url('./img/player_sprites/left_movement_sx_2.png') no-repeat -9999px -9999px; }
+
+#preload-79 { background: url('./img/player_sprites/right_idle_2.png') no-repeat -9999px -9999px; }
+#preload-80 { background: url('./img/player_sprites/right_movement_dx_2.png') no-repeat -9999px -9999px; }
+#preload-81 { background: url('./img/player_sprites/right_movement_sx_2.png') no-repeat -9999px -9999px; }
+
+#preload-82 { background: url('./img/player_sprites/up_idle_2.png') no-repeat -9999px -9999px; }
+#preload-83 { background: url('./img/player_sprites/up_movement_dx_2.png') no-repeat -9999px -9999px; }
+#preload-84 { background: url('./img/player_sprites/up_movement_sx_2.png') no-repeat -9999px -9999px; }

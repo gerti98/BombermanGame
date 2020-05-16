@@ -1,0 +1,251 @@
+/*****
+ Foglio di stile relativo a tutti gli elementi del gioco che vengono creati a partire dal file sketcher.js
+
+*****/
+
+
+#game_container{
+	background-color: #FFD68C;
+	border-color: #cc6600;
+	border-style: dashed;
+	border-width: 5px;
+	padding-top: 2%;
+	overflow: auto;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2.5%;
+	margin-bottom: 5%;
+	padding-bottom: 2.5%;
+}
+
+#playgroundWrapper {
+	position: relative;
+	overflow: auto;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.playground{
+	position: relative;
+	background-image: url('./img/playground_0.png');
+	z-index: 2;
+    overflow: auto;
+    align-items: center;
+}
+
+.playground_menu{
+	position: relative;
+	z-index: 1;
+    overflow: auto;
+    align-items: center;
+    background: #ff8080;
+    border: 2px solid #b30000;
+}
+
+
+
+#gameStat_container{
+	overflow: auto;
+	margin-left: 10.5%;
+	position: relative;
+	width: 78.5%;
+	margin-right: 10.5%;
+
+	background-color: #ffa64d;
+	border-style: solid;
+	border-color: #cc6600;
+}
+
+#gameStat_lid{
+	overflow: auto;
+	margin-left: 10.5%;
+	margin-right: 20%;
+	position: relative;
+	width: 715.2px;
+	background-color: #cc6600;
+	z-index: 1;
+}
+
+#gameStat_1{
+	position: relative;
+	float: left;
+	width: 40%;
+	text-align: left;
+	z-index: 0;
+}
+
+#gameStat_2{
+	position: relative;
+	float: left;
+	width: 40%;
+	z-index: 0;
+}
+
+
+#gameStat_3{
+	position: relative;
+	float: right;
+	width: 20%;
+	z-index: 0;
+}
+
+#player1_stats{
+	display: none;
+}
+
+#player2_stats{
+	display: none;
+}
+
+.gamestat_sprite{
+	float: left;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+	padding-left: 2%;
+	padding-right: 2%;
+	border: 2px solid #cc6600;
+
+
+}
+
+.label{
+	padding-left: 1%; 
+}
+
+.gamestat_header{
+	height: 20%;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid #cc6600;
+	padding-top: 4px; 
+	padding-bottom: 4px; 
+}
+
+#time{
+	width: 99%;
+	line-height: 100%;
+	text-align: center;
+	margin-top: 17%;
+	margin-bottom: 10%;
+	font-weight: bolder;
+	font-size: 30pt;
+}
+
+.player{
+	position: absolute;
+	z-index: 1;
+}
+
+.player_block {
+	background-image: url('./img/prey0.png');
+	position: relative;
+
+}
+
+.balloon{
+	background-image: url('./img/enemy_balloon/down_balloon_1.png');
+	position: absolute;
+	z-index: 1;
+}
+
+.bomb{
+	background-image: url('./img/bomb_explosion/bomb1.png');
+	position: absolute;
+	z-index: 0;
+}
+
+.explosion{
+	position: absolute;
+	z-index: 0;
+}
+
+.block{
+	position: absolute;
+}
+
+
+.modal {
+  position: relative;
+  overflow: auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 1;
+}
+
+.message {
+  font-size:1.1rem;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+}
+
+.popup{
+	position: absolute;
+	z-index: 8;
+    overflow: auto;
+    text-align: center;
+    font-size: 15pt;
+    padding-top: 15px;
+    font-weight: bold;
+    align-items: center;
+    background: #ffffcc;
+    border-radius: 50px;
+    border: 2px solid black; 
+    top: 20%;
+    bottom: 20%;
+    left: 20%;
+    right: 20%; 
+}
+
+.btn {
+	font-size: 14pt;
+    background: #ff4d4d;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    z-index: 3;
+
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    margin-top: 10%; 
+    border: 2px solid black;
+    box-shadow: 0 0 0 black;
+    transition: all 0.2s;
+}
+
+.btn.choice{
+	background-color: #e6e600;
+}
+
+.btn:hover {
+  box-shadow: 0.4rem 0.4rem 0 black;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
+}
+
+.options {
+   width: 80%;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.logo_img_start_game{
+	position: relative;
+	width: 50%;
+	margin-left: 25%;
+	margin-right:  25%;
+	margin-top: 4%;
+}

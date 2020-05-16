@@ -1,0 +1,376 @@
+/*
+	Foglio di Stile relativo alla pagina iniziale
+*/
+
+body {
+	color:black;
+ 	font-family: "Questrial", sans-serif;
+ 
+    background-image: url('./img/wall5.png');
+   	background-size: cover;
+   	background-attachment: fixed;
+    margin: 0 0 0 0;
+}
+
+nav{
+	background-color: #E55765;
+	width: 100%;
+	overflow: auto;
+}
+
+
+
+h2{
+	line-height: 100%;
+	vertical-align: center;
+	text-align: left;
+	text-decoration: underline;
+}
+
+h4{
+	display: none;
+}
+
+div.label {
+	text-align: left;
+	font-weight: bold;
+	float: left;
+	width: 75%;
+}
+
+/* CSS della navigation bar*/
+.menu_item_img{
+	width: 21px;
+	height: 21px;
+	float: left;
+	margin-right: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+
+.utente_img{
+	width: 80px;
+	margin-left: 13%;
+	margin-right: 13%;
+	height: 60px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.nav_description{
+	margin-right: 10%;
+	float: none;
+	margin-left: 10%;
+	width: 80%;
+	text-align: center;
+}
+
+a.nav_item_user {
+	text-decoration: none;
+	color: black;
+	overflow: auto;
+}
+
+a.nav_item_left{
+	text-decoration: none;
+	color: black;
+	overflow: auto;
+}
+
+
+a.nav_item_user:hover {
+	text-decoration: underline;
+}
+
+a.nav_item_left:hover{
+	text-decoration: underline;
+}
+
+.navbar_img{
+	margin-top: 10px;
+	margin-left: 8%;
+	margin-right: 8%;
+	width: 80%;
+	height: 60px;
+}
+
+
+.sign_out_img{
+	background-image: url('./img/logout.png');
+}
+
+.game_logo_img{
+	background-image: url('./img/bomberman_logo.png');
+}
+
+.nav_item_right.nav_item_user{
+	float: right;
+	border-left: 1px dashed #990000;
+	width: 100px;
+}
+
+.nav_item_left{
+	float: left;	
+	text-align: center;
+	border-right: 1px dashed #990000;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 20px;
+
+}
+
+.nav_item_user{
+	float: left;	
+	width: 80px;
+	text-align: center;
+	border-right: 1px dashed #990000;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.nav_item_user.nav_item_logo{
+	width: 200px;
+	float: left;
+	margin-left: 28%;
+	border-left: 1px dashed #990000;
+}
+
+
+/* CSS del content della pagina manual.php*/
+
+#top_header{
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+#logo_manual_img{
+	width: 180px;
+	height : 60px;
+	margin-top: 3%;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 3%;
+}
+.manual_header{
+	overflow: auto;
+}
+
+.main_article{
+	text-align: center;
+
+}
+.main_section{
+	background-color: #FFD68C;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 7%;
+	overflow: auto;
+	border-color: #cc6600;
+	border-style: dashed;
+	border-width: 5px;
+}
+
+
+#article_left{
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+	float: left;
+	overflow: auto;
+}
+
+#article_right{
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 2%;
+	float: right;
+	overflow: auto;
+}
+
+.img_header{
+	float: right;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+.section_manual{
+	margin-top: 2%;
+	margin-right: 1%;
+	margin-bottom: 2%;
+	text-align: justify;
+}
+
+.article_bottom{
+	clear: both;
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	overflow: auto;
+}
+
+.bottom_header{
+	overflow: auto;
+}
+
+table, th, td {
+    border: 3px solid #cc6600;
+    text-align: center;
+	
+}
+
+td, th{
+	z-index: 1;
+	background-color: #ffcc66;
+	border-style: inset;
+	padding: 10px;
+}
+
+th{
+	background-color: #ff9933;
+}
+
+table{
+	z-index: 0;
+	background-color: #cc6600;
+	border-style: outset;
+	padding: 6px;
+}
+
+#bonus_malus_description_table{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+}
+
+#keys_table{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+}
+
+[type=radio]:checked ~ label {
+	border-bottom: 2px solid #1d1d1d;
+	color: #1d1d1d;
+	z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .tab__content {
+	z-index: 1;
+	opacity: 1;
+}
+
+
+.tabs {
+   position: relative;   
+   width: 70%;
+   margin-left: 20%;
+}
+
+
+.tab label {
+	position: relative;
+	cursor: pointer;
+	color: #333;
+	margin-right: 10%;
+   	text-transform: uppercase;
+   	float: left;
+}
+
+.tab [type=radio] {
+	display: none;   
+	background-color: #FFD68C;
+    position: relative;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: opacity .2s cubic-bezier(.42,0,.34,1.01);
+	opacity: 0;
+}
+
+
+.main_rank_section{
+	background-color: #FFD68C;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 5%;
+	overflow: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-color: #cc6600;
+	border-style: dashed;
+	border-width: 5px;
+	text-align: center;
+}
+
+
+#rank_table{
+	float: none;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+#rank_table td, th{
+	text-align: center;
+	padding: 10px;
+}
+
+.head_section{
+	height: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 44%;
+	margin-left: 44%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 20pt;
+	background-color: #ff9933;
+	border-radius: 20px;
+	border-style: outset;
+	border-color: #ffcc99;
+}
+
+#sign_in_footer{
+	position: fixed;
+	bottom: 0%;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(100, 100, 100, 0.4);
+	text-shadow: 1px 0px 10px rgba(0, 0, 0, 1);
+	z-index: 3;
+}
+
+
+footer{
+	width: 20%;
+	vertical-align: text-bottom;
+	margin: 15px 0px 0px 0px;
+} 
+
+.footer_div{
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	margin-right: 12px;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-left: 10px;
+}
+
+div.footer_div.right_footer{
+	float: right;
+}

@@ -1,0 +1,5 @@
+{
+    "php.validate.executablePath": "c:/php/php.exe",
+    "phpserver.phpPath": "C:/php/php.exe",
+    "git.ignoreLimitWarning": true
+}
