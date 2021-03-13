@@ -2,10 +2,7 @@
 
 Project Assignment for the course of Web Desing (Progettazione Web) for the BSc in Computer Engineering (Ingegneria Informatica) at University of Pisa.
 **BombermanGame** is a game made by javascript playable directly through the browser at this link: http://bomberman.altervista.org/   
-
-NOTE: I'm currently working on a secure login system, please login with:      
-**user: firefox**   
-**pw: firefox2**     
+**NOTE: the site does not implement https protocol, do not use any personal information**
 
 ![Client Example](https://github.com/gerti98/BombermanGame/blob/master/screen.png)
 
